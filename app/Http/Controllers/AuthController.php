@@ -73,6 +73,8 @@ class AuthController extends Controller
        
             }else{
                 $this->createFolder($user->name);
+                $this->createFolder($user->name . '/Income');
+                $this->createFolder($user->name . '/Expense');
                 $newUser = User::create([
                     'name' => $user->name,
                     'email' => $user->email,

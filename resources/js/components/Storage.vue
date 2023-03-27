@@ -5,7 +5,7 @@
                 <h4 class="text-dark"><strong>My Files</strong></h4>
             </div>
         </div>
-        <div class="d-block d-sm-flex ms-0 ms-sm-2 my-3 ps-sm-3 row" v-if="!dots" style="">
+        <div class="d-block d-sm-flex ms-0 ms-sm-2 my-3 ps-sm-3 row" v-if="!dots && !root" style="">
             <div class="col-auto p-1">
                 <form id="uploadFile" enctype="multipart/form-data">
                     <input type="hidden" name="_token" :value="token">
@@ -120,6 +120,7 @@ export default {
             del: false,
             tabs: '',
             searchVal: '',
+            root: true,
             bread: [{name: 'Root', url: this.user.name}],
         }
     },
@@ -152,7 +153,7 @@ export default {
             this.dots = true
             if(this.dots){
             this.currDir = dir
-            console.log(dir)
+            this.root = dir == this.user.name ? true : false
             await this.getDocs()
 
             if(dir != this.user.name){

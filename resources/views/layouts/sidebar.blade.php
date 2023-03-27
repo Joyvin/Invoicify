@@ -40,6 +40,13 @@
                 </li>
 
                 <li>
+                    <a href="{{route('storage')}}">
+                        <i class="uil-box"></i>
+                        <span>Storage</span>
+                    </a>
+                </li>
+
+                <!-- <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="uil-window-section"></i>
                         <span>@lang('translation.Layouts')</span>
@@ -66,9 +73,9 @@
                             </ul>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
-                <li class="menu-title">@lang('translation.Apps')</li>
+                <!-- <li class="menu-title">@lang('translation.Apps')</li>
 
                 <li>
                     <a href="#" class="waves-effect">
@@ -285,7 +292,7 @@
                             </ul>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
             </ul>
         </div>

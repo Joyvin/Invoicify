@@ -35,7 +35,7 @@ class StorageController extends Controller
 
     public function uploadFile(Request $request){
         $validatedData = $request->validate([
-			'files' => 'required|mimes:doc,docx,pdf,txt|max:25600'
+			'files' => 'required|mimes:doc,docx,pdf,txt,png|max:25600'
 		]);
 
         if($request->TotalFiles > 0){
