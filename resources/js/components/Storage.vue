@@ -136,7 +136,10 @@ export default {
             var temp_dirs = []
             var temp_files = []
 
+            var tdir = []
+
             $.each(docs.files, function(index, value){
+                tdir.push("https://invoicifystorage.blob.core.windows.net/invoices/" + value)
                 temp_files.push(value.split('/').pop())
             })
             this.files = temp_files
@@ -144,6 +147,7 @@ export default {
             $.each(docs.dirs, function(index, value){
                 temp_dirs.push(value.split('/').pop().split('-')[0])
             })
+            console.log(tdir)
             this.dirs = temp_dirs
             this.dloc = docs.dirs
             this.floc = docs.files

@@ -7,6 +7,8 @@
  <script src="{{ URL::asset('/assets/libs/jquery-counterup/jquery-counterup.min.js')}}"></script>
 <script src="{{ URL::asset('/assets/libs/toastr/toastr.min.js')}}"></script>
 <script src="{{ URL::asset('/assets/libs/sweetalert2/sweetalert2.min.js')}}"></script>
+<script src="{{ URL::asset('/assets/libs/apexcharts/apexcharts.min.js') }}"></script>
+<script src="{{ URL::asset('/assets/js/pages/dashboard.init.js') }}"></script>
 <script src="{{ URL::asset('/assets/libs/datatables/datatables.min.js')}}"></script>
 <script src="{{ URL::asset('/assets/libs/table-edits/table-edits.min.js')}}"></script>
 

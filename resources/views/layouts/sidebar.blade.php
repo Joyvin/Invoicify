@@ -6,7 +6,7 @@
         <a href="{{url('index')}}" class="logo logo-dark">
             <div>
                 <img class="hidden" src="{{ URL::asset('/assets/images/logo-sm.png') }}" id="logoAdjust-s" alt="" height="40">                
-                <img class="me-3" src="{{ URL::asset('/assets/images/logo.png') }}" id="logoAdjust-l" alt="" height="48">
+                <img class="me-4" src="{{ URL::asset('/assets/images/logo.png') }}" id="logoAdjust-l" alt="" height="35">
             </div>
         </a>
 

@@ -6,6 +6,7 @@
         @slot('title') Dashboard @endslot
     @endcomponent
 
+    <dashboard />
 @endsection
 @section('script')
 

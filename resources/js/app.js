@@ -14,8 +14,10 @@
 import Login from './components/Login.vue'
 import Register from './components/Register.vue'
 import Storage from './components/Storage.vue'
+import Dashboard from './components/Dashboard.vue'
 
  app
+ .component('dashboard', Dashboard)
  .component('storage', Storage)
  .component('register', Register)
  .component('login', Login);
