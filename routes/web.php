@@ -19,7 +19,10 @@ use Illuminate\Http\Request;
 
 Auth::routes();
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'root'])->name('home');
+Route::get('/', function(){
+    return view('home');
+})->name('homeReal');
+Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'root'])->name('home');
 Route::post('/formsubmit', [App\Http\Controllers\HomeController::class, 'FormSubmit'])->name('FormSubmit');
 
 Route::post('/clogin', [App\Http\Controllers\AuthController::class, 'login'])->name('clogin');

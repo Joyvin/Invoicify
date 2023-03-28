@@ -208,7 +208,7 @@
                 </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                <img src="assets/img/tabs-1.jpg" alt="" class="img-fluid">
+                <img src="assets/images/tabs-1.jpg" alt="" class="img-fluid">
               </div>
             </div>
           </div>
@@ -232,7 +232,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/tabs-2.jpg" alt="" class="img-fluid">
+                <img src="assets/images/tabs-2.jpg" alt="" class="img-fluid">
               </div>
             </div>
           </div>
@@ -261,7 +261,7 @@
                 </p>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/tabs-3.jpg" alt="" class="img-fluid">
+                <img src="assets/images/tabs-3.jpg" alt="" class="img-fluid">
               </div>
             </div>
           </div>
@@ -283,7 +283,7 @@
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/tabs-4.jpg" alt="" class="img-fluid">
+                <img src="assets/images/tabs-4.jpg" alt="" class="img-fluid">
               </div>
             </div>
           </div>
@@ -307,7 +307,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <div class="member-img">
-                <img src="assets/img/Alvin01.png" class="img-fluid" alt="">
+                <img src="assets/images/Alvin01.png" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -325,7 +325,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="member-img">
-                <img src="assets/img/jayden1.png" class="img-fluid" alt="">
+                <img src="assets/images/jayden1.png" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -343,7 +343,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="300">
               <div class="member-img">
-                <img src="assets/img/joy-removebg-preview.png" class="img-fluid" alt="">
+                <img src="assets/images/joy-removebg-preview.png" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -362,7 +362,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="400">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img src="assets/images/team/zane-final.png" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -380,7 +380,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member" data-aos="fade-up" data-aos-delay="200">
               <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <img src="assets/images/team/alroy-final.png" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -497,18 +497,3 @@
 </body>
 
 </html>
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Trial/index.html at main · AlvinDHacker/Trial
